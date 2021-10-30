@@ -1,0 +1,28 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@types/ffmpeg": "^1.0.4",
+    "@types/request": "^2.48.7",
+    "axios": "^0.24.0",
+    "canvas": "^2.8.0",
+    "canvas-constructor": "^5.0.1",
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "jimp": "^0.16.1",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "bot:gif": "nodemon bots/GifCreateBot.ts",
+    "dev": "nodemon src/server.ts"
+  },
+  "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.18",
+    "nodemon": "^2.0.14",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}
